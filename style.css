@@ -1,0 +1,53 @@
+@charset "UTF8";
+
+body {
+    background-color: rgba(182, 174, 174, 0.742);
+}
+
+header > div {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.048);
+    height: 25vh;/*estava 150px*/
+    
+}
+
+nav {
+    text-align: center;
+    left: 50%;
+    
+    transform: translate(0%,-250%);
+}
+
+nav >a{
+   
+    background-color:rgb(119, 119, 127);
+    font-family: 'Bebas Neue';
+    color: black;
+    padding: 10px;
+    margin:  10px;/* tinha posto 10px, memso resultado */
+    text-decoration: none;
+    font-weight: arial;
+    box-shadow: 0px 2px 2px black ;
+    border-radius: 5px;
+    
+}
+
+section{
+    background-color: gray;
+}
+
+footer{
+    background-color: rgba(0, 0, 0, 0.338);
+    font-size: large;
+}
+footer >ul{
+    list-style: none;
+    text-align: center;
+}
+
+footer >p{ 
+    background-color: black;
+    text-align: center;
+    text-decoration: underline;
+    color: aliceblue;
+}
