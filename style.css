@@ -8,8 +8,11 @@ body {
 
 header > div {
     text-align: center;
+    margin-top: 10px;
     background-color: rgba(0, 0, 0, 0.048);
-    height: 25vh;/*estava 150px*/
+    height: 22vh;/*estava 150px-25vh*/
+    width: max-content 22vw min-content 1vw;
+    
     
 }
 
@@ -35,27 +38,45 @@ nav >a{
 }
 
 section{
-    text-align: center;
-    margin-left: 5%;
-    margin-right: 5%;
+    text-align: center;                                 
+    min-width: 300px;
+    max-width: 680px;
+    margin: auto;
+
     background-color: gray;
 }
 
 footer{
-    text-align: center;
-    margin-left: 5%;
-    margin-right: 5%;
+    text-align: center;      
+    text-decoration: none;   
+    min-width: 300px;
+    max-width: 680px;
+    margin: auto;
+    padding: 5px;
+    
     background-color: rgba(0, 0, 0, 0.338);
     font-size: large;
 }
+
 footer >ul{
+    text-align: center;
     list-style: none;
     text-align: center;
 }
 
+footer >p >a{
+    text-decoration: none;
+}
+footer >ul li >a{
+    text-align: center;
+    text-decoration: none;
+}
+
 footer >p{ 
+    margin: 0px;
+    padding: 5px;
     background-color: black;
     text-align: center;
-    text-decoration: underline;
     color: aliceblue;
+    
 }
