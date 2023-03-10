@@ -10,8 +10,8 @@ header > div {
     text-align: center;
     margin-top: 10px;
     background-color: rgba(0, 0, 0, 0.048);
-    height: 22vh;/*estava 150px-25vh*/
-    width: max-content 22vw min-content 1vw;
+    height: 100px;/*estava 150px-25vh-22*/
+    /*width: max-content 22vw min-content 15vw;*/
     
     
 }
@@ -28,8 +28,8 @@ nav >a{
     background-color:rgb(119, 119, 127);
     font-family: 'Bebas Neue';
     color: black;
-    padding: 1%;
-    margin:  1%;/* tinha posto 10px, memso resultado */
+    padding: 5px;
+    margin:  5px;/* tinha posto 10px, memso resultado --1%*/
     text-decoration: none;
     font-weight: arial;
     box-shadow: 0px 2px 2px black ;
